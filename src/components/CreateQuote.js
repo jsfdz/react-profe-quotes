@@ -17,30 +17,34 @@ const CreateQuote = () => {
         <div className="form-container">
             <p>Add new Quote</p>
             <form onSubmit={handleSubmit(postQuote)}>
-                <label htmlFor="Quote">
-                    Quote
-                    </label>
-                <input
-                    id="Quote"
-                    name="quote"
-                    ref={register}
-                    type="text"
-                />
-
-                <label htmlFor="Class">
-                    Class
-                    </label>
-                <select
-                    id="Class"
-                    name="class"
-                    ref={register}
-                >
-                    {options &&
-                        options.map((classOption, index) => <option key={index + 1} value={classOption}>{classOption}</option>)
-                    }
-                </select>
-
-                <button>addQuote</button>
+                <div className="content-input">
+                    <label htmlFor="Quote">
+                        Quote
+                        </label>
+                    <input
+                        id="Quote"
+                        name="quote"
+                        ref={register}
+                        type="text"
+                    />
+                </div>
+                <div className="content-input">
+                    <label htmlFor="Class">
+                        Class
+                        </label>
+                    <select
+                        id="Class"
+                        name="class"
+                        ref={register}
+                    >
+                        {options &&
+                            options.map((classOption, index) => <option key={index + 1} value={classOption}>{classOption}</option>)
+                        }
+                    </select>
+                </div>
+                <div className="content-button">
+                    <button>addQuote</button>
+                </div>
             </form>
         </div>
     );

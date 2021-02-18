@@ -1,21 +1,22 @@
-html {
+/* html {
   box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-body {
+} */
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 blockquote {
-  font-family: 'BureauGrotesque-OneSeven', Impact, sans-serif;
+  font-family: "BureauGrotesque-OneSeven", Impact, sans-serif;
   text-transform: uppercase;
   font-size: 2.5em;
   color: #fff;
@@ -26,14 +27,14 @@ blockquote {
 }
 
 blockquote::before {
-  content: '\201C';
+  content: "\201C";
   position: relative;
   left: -0.5%;
   margin-left: -5%;
 }
 
 blockquote::after {
-  content: '\201D';
+  content: "\201D";
 }
 
 cite {
@@ -100,10 +101,11 @@ cite {
 .image-container {
   width: 100%;
   text-align: center;
+  transform: translateY(-50%);
 }
 
 .image-container img {
-  width: 125px;
+  width: 90px;
 }
 
 button.delete {
