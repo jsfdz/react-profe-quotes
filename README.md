@@ -1,7 +1,7 @@
-# Frases clebres de Charly
+# Frases celebres de Charly
 
-Este proyecto tiene las frases chidas de nuestro profe Charly de ReactJs [Quotes Charly](https://quotes-charly.netlify.app/).
+Este proyecto tiene las frases chidas de nuestro profe Charly de React Js [Quotes Charly](https://quotes-charly.netlify.app/).
 
 ## Creditos
 
-Jesus y Criss los cracks en la React, yo el H ando muy corto :(
+JesusFdz y DennCriss los cracks en React, yo el H ando muy corto :(
