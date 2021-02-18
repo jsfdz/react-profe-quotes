@@ -1,6 +1,6 @@
 # Frases clebres de Charly
 
-Este proyecto tiene las frases chidas de nuestro profe Charly de ReactJs [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto tiene las frases chidas de nuestro profe Charly de ReactJs [Quotes Charly](https://quotes-charly.netlify.app/).
 
 ## Creditos
 
